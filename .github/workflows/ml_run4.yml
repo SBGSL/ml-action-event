@@ -24,5 +24,4 @@ jobs:
           pip install -r requirements.txt
       - name: deploy
         run: |
-          python ml_example.ipynb
-            
+          python ml_example.py
